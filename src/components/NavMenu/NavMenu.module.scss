@@ -1,0 +1,12 @@
+.menuMobile {
+    display: none;
+    z-index: 10;
+    position: fixed;
+    height: 100%;
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

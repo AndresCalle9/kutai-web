@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.header {
+  position: relative;
+  // height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 11;
+  background-color: $white;
+  .headerTop {
+    div {
+      min-width: 20%;
+      p {
+        color:$green;
+        font-size: 18px;
+      }
+    }
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: $white;
+    padding: 0 24px;
+    svg {
+      margin-left: 50px;
+      font-size: 22px;
+    }
+    path {
+      fill: $green !important;
+    }
+  }
+}
