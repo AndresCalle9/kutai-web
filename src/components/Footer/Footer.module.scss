@@ -6,12 +6,11 @@
     justify-content: space-around;
     background-color: $green;
     height: 200px;
-    h2{
-        color:white ;
-        margin-top: 60px;
-    }
+    width: 100%;
+    position: relative;
     h3{
         margin-top: 20px;
         color: white;
+        text-align: center;
     }
 }

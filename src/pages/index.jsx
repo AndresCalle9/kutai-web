@@ -80,7 +80,10 @@ const index = () => {
         </div>
         <Image src={img6_2} alt="image section 6.2" />
         <div className={s.bottom}>
+            <div className={s.imgSct6}>
+
         <Image src={img6_3} alt="image section 6.3" />
+            </div>
         <p className={s.paragraph}>
           "The industry and the scince of nutrition is moving beyond the simple
           device to holistic solutions that include nutrition, technologu and
@@ -95,13 +98,17 @@ const index = () => {
       <section className={s.section7} id="sectionSeven">
         {/* section 7 */}
         <h2>Contact us</h2>
+        <div className={s.imgSct7}>
         <Image src={img7} alt="image section 7" />
-        <div>
-          <p>(+57)300 786 6187</p>
-          <p>info@kutai.co</p>
-          <p>Nit: 901 465 463</p>
         </div>
+        <div className={s.textSct7}>
+          <p>Phone: (+57)300 786 6187</p>
+          <p>Email: info@kutai.co</p>
+          <p>Nit: 901.465.463</p>
+        </div>
+        <div className={s.logoSct7}>
         <Image src={logoWhite} alt="white_logo" />
+        </div>
       </section>
     </div>
   );

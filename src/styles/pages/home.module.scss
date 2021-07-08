@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: relative;
   .section1 {
     display: flex;
     flex-direction: column;
@@ -162,7 +163,7 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      top: 410px;
+      top: 435px;
       .dot1 {
         background-color: $green;
         width: 10px;
@@ -198,17 +199,30 @@
     .top {
       position: absolute;
       left: 210px;
-      bottom: 500px;
+      bottom: 575px;
+      z-index: 2;
     }
     .bottom {
       background-color: $green;
       border-radius: 5px;
       padding: 20px;
-      .paragraph{
-          margin-bottom: 20px;
+      position: relative;
+      top: -310px;
+      height: 260px;
+      width: 325px;
+      .imgSct6 {
+        div:first-child {
+          position: relative;
+          top: -45px;
+          left: 115px;
+        }
       }
-      p{
-          color:$white
+      .paragraph {
+        margin-bottom: 20px;
+        margin-top: -35px;
+      }
+      p {
+        color: $white;
       }
     }
   }
@@ -219,5 +233,93 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    top: -200px;
+    .imgSct7 {
+      div:first-child {
+        position: relative;
+        width: 500px;
+        height: 430px;
+      }
+    }
+    h2 {
+      position: absolute;
+      font-weight: 800;
+      font-size: 24px;
+      z-index: 2;
+      top: 50px;
+      color: $white;
+    }
+
+    .textSct7 {
+      position: absolute;
+      top: 180px;
+      p {
+        color: $white;
+      }
+    }
+    .logoSct7 {
+      max-width: 100%;
+      div:first-child {
+        position: relative;
+        top: -100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 786px) {
+  .container {
+    .section1 {
+      .imgSct1 {
+        div:first-child {
+          width: 790px;
+          height: 792px;
+          top: -310px;
+        }
+      }
+      .phraseSct1 {
+        position: absolute;
+        top: 485px;
+        left: 50px;
+      }
+    }
+    .section2 {
+      top: 50px;
+      .imgSct2 {
+        div:first-child {
+          width: 790px;
+          height: 770px;
+          top: -115px;
+        }
+      }
+      .textSct2 {
+        position: absolute;
+        right: 60px;
+      }
+      .phraseSct2 {
+        position: absolute;
+        right: 60px;
+        top: 1210px;
+      }
+    }
+    .section5 {
+      width: 100%;
+
+      .phraseSct5 {
+        top: 580px;
+        justify-content: center;
+      }
+    }
+    .section7 {
+      .imgSct7 {
+        div:first-child {
+            width: 1000px;
+            height: 730px;
+        }
+      }
+      .textSct7 {
+          top:300px
+      }
+    }
   }
 }
