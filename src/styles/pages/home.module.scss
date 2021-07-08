@@ -269,13 +269,20 @@
 
 @media (min-width: 786px) {
   .container {
+    width: 100%;
     .section1 {
+      width: 100%;
+      background-color: red;
+      height: 780px;
       .imgSct1 {
+      width: 100%;
         div:first-child {
-          width: 790px;
-          height: 792px;
-          top: -310px;
+          width: 100%;
+          top: -500px;
         }
+      }
+      .textSct1{
+          top:50px !important;
       }
       .phraseSct1 {
         position: absolute;
@@ -284,10 +291,15 @@
       }
     }
     .section2 {
+    width: 100%;
+
       top: 50px;
       .imgSct2 {
+    width: 100%;
+
         div:first-child {
-          width: 790px;
+            width: 100%;
+
           height: 770px;
           top: -115px;
         }
@@ -323,3 +335,4 @@
     }
   }
 }
+

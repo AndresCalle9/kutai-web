@@ -29,7 +29,7 @@ const Header = () => {
         <div>
           <Image src={logo} alt="logo kutai" href="/"/>
         </div>
-        <div onClick={openMenu}>
+        <div className={s.menu} onClick={openMenu}>
           <FontAwesomeIcon icon={faBars} />
           <NavMenu toggleMenu={() => openMenu()} />
         </div>

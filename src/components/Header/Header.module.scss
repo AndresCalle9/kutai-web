@@ -7,13 +7,13 @@
   justify-content: space-between;
   z-index: 11;
   background-color: $white;
-  position:sticky;
+  position: sticky;
   top: 0;
   .headerTop {
     div {
       min-width: 20%;
       p {
-        color:$green;
+        color: $green;
         font-size: 18px;
       }
     }
@@ -30,6 +30,29 @@
     }
     path {
       fill: $green !important;
+    }
+  }
+}
+
+@media (min-width: 786px) {
+  .header {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    .headerTop {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      div {
+        min-width: 10%;
+      }
+      svg {
+        display: none;
+      }
+    }
+    .menu {
+      width: 60%;
     }
   }
 }
