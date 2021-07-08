@@ -27,7 +27,7 @@ const Header = () => {
           <p>EN</p>
         </div>
         <div>
-          <Image src={logo} placeholder="blur" alt="logo kutai" href="/"/>
+          <Image src={logo} alt="logo kutai" href="/"/>
         </div>
         <div onClick={openMenu}>
           <FontAwesomeIcon icon={faBars} />

@@ -1,0 +1,17 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .section1 {
+    .imgContainer {
+      position: relative;
+      width: 542px;
+      height: 538px;
+      overflow: hidden;
+      top: -50px;
+    }
+  }
+}
