@@ -104,7 +104,6 @@ const index = () => {
           <Image src={img7} alt="image section 7" />
         </div>
         <div className={s.textSct7}>
-          <p>Phone: (+57)300 786 6187</p>
           <p>Email: info@kutai.co</p>
           <p>Nit: 901.465.463</p>
         </div>

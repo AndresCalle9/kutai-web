@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={s.container}>
       <div>
         <h3>
-          KutAi: is an Ai powered wuide that helps you taking the best food
+          KutAi: is an Ai powered guide that helps you taking the best food
           choices towards a healthier life
         </h3>
       </div>
