@@ -225,6 +225,9 @@
         color: $white;
       }
     }
+    .middle2 {
+      display: none;
+    }
   }
   .section7 {
     max-width: 100%;
@@ -272,45 +275,47 @@
     width: 100%;
     .section1 {
       width: 100%;
-      background-color: red;
       height: 780px;
       .imgSct1 {
-      width: 100%;
+        width: 100%;
         div:first-child {
           width: 100%;
+          height: 1550px;
           top: -500px;
         }
       }
-      .textSct1{
-          top:50px !important;
+      .textSct1 {
+        top: 50px !important;
       }
       .phraseSct1 {
         position: absolute;
-        top: 485px;
+        top: 530px;
         left: 50px;
       }
     }
     .section2 {
-    width: 100%;
-
+      width: 100%;
       top: 50px;
       .imgSct2 {
-    width: 100%;
+        width: 100%;
 
         div:first-child {
-            width: 100%;
-
-          height: 770px;
-          top: -115px;
+          width: 100%;
+          height: 900px;
         }
+      }
+      .titleSct2 {
+        position: absolute;
+        right: 280px;
+        top: 20px;
       }
       .textSct2 {
         position: absolute;
-        right: 60px;
+        right: 280px;
       }
       .phraseSct2 {
         position: absolute;
-        right: 60px;
+        right: 280px;
         top: 1210px;
       }
     }
@@ -320,19 +325,81 @@
       .phraseSct5 {
         top: 580px;
         justify-content: center;
+        height: 70px;
+        a {
+          font-size: 24px;
+        }
+      }
+    }
+    .section6 {
+      margin-top: 10%;
+      display: flex;
+      height: 800px;
+      .top {
+        display: flex;
+        justify-content: flex-end;
+        right: 100px;
+        left: 380px;
+        position: relative;
+        top: 80px;
+      }
+      .bottom {
+        width: 60%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -535px;
+        .imgSct6 {
+          div:first-child {
+            left: 0px;
+            top: -80px;
+          }
+        }
+      }
+      .middle2 {
+        display: flex;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        left: 800px;
+        div:first-child {
+          display: flex;
+          width: 600px;
+          position: absolute;
+          top: 100px;
+          height: 400px;
+          position: relative;
+          top: -210px;
+        }
+      }
+      .middle1 {
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 80px;
       }
     }
     .section7 {
+      width: 100%;
+      h2 {
+        font-size: 60px;
+      }
       .imgSct7 {
+        width: 150%;
         div:first-child {
-            width: 1000px;
-            height: 730px;
+          width: 100%;
+          height: 500px;
         }
       }
       .textSct7 {
-          top:300px
+        top: 210px;
+        p {
+          font-size: 24px;
+        }
       }
     }
   }
 }
-
