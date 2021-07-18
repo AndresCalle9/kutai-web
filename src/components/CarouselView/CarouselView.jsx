@@ -1,9 +1,9 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import img1 from "../../../public/assets/smartmockups_kqu0uxxs1.png";
-import img2 from "../../../public/assets/smartmockups_kqu0w8wi1.png";
-import img3 from "../../../public/assets/smartmockups_kqu12s4h1.png";
-import img4 from "../../../public/assets/Ellipse9.png";
+import img1 from "../../../public/assets/section4_1.png";
+import img2 from "../../../public/assets/section4_2.png";
+import img3 from "../../../public/assets/section4_3.png";
+import img4 from "../../../public/assets/section4_4.png";
 import s from "./CarouselView.module.scss";
 
 import Image from "next/image";

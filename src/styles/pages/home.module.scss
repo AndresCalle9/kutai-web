@@ -12,17 +12,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     .imgSct1 {
+      height: 420px;
       div:first-child {
-        position: relative;
+        overflow-y: visible;
         width: 542px;
         height: 538px;
-        top: -65px;
+        transform: translateY(-155px);
       }
       .textSct1 {
         position: absolute;
-        top: 150px;
+        top: 60px;
         left: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -129,7 +130,8 @@
     }
   }
   .section5 {
-    max-width: 100%;
+    width: 100%;
+    margin: 25px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,27 +145,17 @@
       margin-bottom: 40px;
     }
     .imgSct5 {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      div:first-child {
-        position: relative;
-        width: 100%;
-        height: auto;
-      }
+      width: 100%;
     }
     .phraseSct5 {
-      position: absolute;
       background-color: $sand;
+      transform: translateY(-20px);
       height: 33px;
       width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      top: 435px;
       .dot1 {
         background-color: $green;
         width: 10px;
@@ -189,8 +181,8 @@
     }
   }
   .section6 {
-    margin-top: 50px;
-    max-width: 100%;
+    width: 100%;
+    padding: 90px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,24 +190,25 @@
     position: relative;
     .top {
       position: absolute;
-      left: 210px;
-      bottom: 575px;
-      z-index: 2;
+      width: 78px;
+      right: 0;
+      top: 0;
+      z-index: 1;
     }
     .bottom {
       background-color: $green;
       border-radius: 5px;
       padding: 20px;
-      position: relative;
-      top: -310px;
       height: 260px;
       width: 325px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
       .imgSct6 {
-        div:first-child {
-          position: relative;
-          top: -45px;
-          left: 115px;
-        }
+        width: 54px;
+        transform: translateY(-50px);
       }
       .paragraph {
         margin-bottom: 20px;
@@ -225,47 +218,13 @@
         color: $white;
       }
     }
+    .middle1 {
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+    }
     .middle2 {
       display: none;
-    }
-  }
-  .section7 {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -200px;
-    .imgSct7 {
-      div:first-child {
-        position: relative;
-        width: 500px;
-        height: 430px;
-      }
-    }
-    h2 {
-      position: absolute;
-      font-weight: 800;
-      font-size: 24px;
-      z-index: 2;
-      top: 50px;
-      color: $white;
-    }
-
-    .textSct7 {
-      position: absolute;
-      top: 180px;
-      p {
-        color: $white;
-      }
-    }
-    .logoSct7 {
-      max-width: 100%;
-      div:first-child {
-        position: relative;
-        top: -100px;
-      }
     }
   }
 }
@@ -274,23 +233,22 @@
   .container {
     width: 100%;
     .section1 {
-      width: 100%;
-      height: 780px;
       .imgSct1 {
         width: 100%;
+        height: 700px;
         div:first-child {
-          width: 100%;
-          height: 1550px;
-          top: -500px;
+          width: auto;
+          height: auto;
+          transform: translateY(-820px);
+        }
+        .textSct1 {
+          top: 200px;
+          left: 216px;
         }
       }
-      .textSct1 {
-        top: 50px !important;
-      }
       .phraseSct1 {
-        position: absolute;
-        top: 530px;
-        left: 50px;
+        align-self: flex-start;
+        transform: translateY(-250px);
       }
     }
     .section2 {
@@ -312,7 +270,7 @@
       .textSct2 {
         position: absolute;
         right: 320px;
-        p{
+        p {
           font-size: 24px;
         }
       }
@@ -324,9 +282,10 @@
     }
     .section5 {
       width: 100%;
-
+      .imgSct5 {
+        width: 60%;
+      }
       .phraseSct5 {
-        top: 580px;
         justify-content: center;
         height: 70px;
         a {
@@ -335,54 +294,28 @@
       }
     }
     .section6 {
-      margin-top: 10%;
-      display: flex;
-      height: 800px;
+      padding: 150px 0;
       .top {
-        display: flex;
-        justify-content: flex-end;
-        right: 100px;
-        left: 380px;
-        position: relative;
-        top: 80px;
-      }
-      .bottom {
-        width: 60%;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: -535px;
-        .imgSct6 {
-          div:first-child {
-            left: 0px;
-            top: -80px;
-          }
-        }
+        width: 272px;
+        height: 480px;
       }
       .middle2 {
         display: flex;
-        width: 100%;
-        position: relative;
-        top: 0px;
-        left: 800px;
-        div:first-child {
-          display: flex;
-          width: 600px;
-          position: absolute;
-          top: 100px;
-          height: 400px;
-          position: relative;
-          top: -210px;
-        }
+        position: absolute;
+        right: 0;
+        bottom: -70px;
+        z-index: -1;
       }
       .middle1 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        top: 80px;
+        left: 50px;
+      }
+      .bottom {
+        width: 500px;
+        height: 350px;
+        .imgSct6 {
+          width: 80px;
+          transform: translateY(-120px);
+        }
       }
     }
     .section7 {

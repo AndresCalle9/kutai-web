@@ -1,6 +1,42 @@
-@import "../../styles/variables" ;
+@import "../../styles/variables";
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+  .section7 {
+    width: 130%;
+    height: 400px;
+    background-color: $brown;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transform: translateY(80px);
+    z-index: 2;
+    // .imgSct7 {
+    //   div:first-child {
+    //     position: relative;
+    //     width: 500px;
+    //     height: 430px;
+    //   }
+    // }
+    h2 {
+      font-weight: 800;
+      font-size: 24px;
+      color: $white;
+    }
+
+    .textSct7 {
+      p {
+        color: $white;
+      }
+    }
+  }
+  .footerInfo {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,9 +44,12 @@
     height: 200px;
     width: 100%;
     position: relative;
-    h3{
-        margin-top: 20px;
-        color: white;
-        text-align: center;
+    z-index: 1;
+    padding: 0 30px;
+    h3 {
+      margin-top: 60px;
+      color: white;
+      text-align: center;
     }
+  }
 }
