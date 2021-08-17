@@ -7,7 +7,7 @@ import img3 from "../../public/assets/section3.png";
 import img5 from "../../public/assets/section5.png";
 import img6_1 from "../../public/assets/section6_1.png";
 import img6_2 from "../../public/assets/section6_2.png";
-import img6_3 from "../../public/assets/section6_3.png";
+import img6_3 from "../../public/assets/david_image.jpeg";
 import img7 from "../../public/assets/section7.png";
 import img6_4 from "../../public/assets/section6_4.png";
 import s from "../styles/pages/home.module.scss";
@@ -58,7 +58,7 @@ const index = () => {
       </section>
       <section className={s.section5} id="sectionFive">
         {/* section 5*/}
-        <p>Wearable techbology for our advanced users</p>
+        <p>Wearable technology for our advanced users</p>
         <div className={s.imgSct5}>
           <Image src={img5} alt="image tech" layout="responsive" />
         </div>
@@ -84,15 +84,15 @@ const index = () => {
         </div>
         <div className={s.bottom}>
           <div className={s.imgSct6}>
-            <Image src={img6_3} alt="image section 6.3" layout="responsive" />
+            <Image src={img6_3} alt="image section 6.3" layout="responsive" objectFit="cover"/>
           </div>
           <p className={s.paragraph}>
-            "The industry and the scince of nutrition is moving beyond the
+            "The industry and the science of nutrition is moving beyond the
             simple device to holistic solutions that include nutrition,
             technologu and motivation. The kutai solution appears to be in
             alignment with this view"
           </p>
-          <p>David Metclaf, PhD</p>
+          <p>David Metcalf, PhD</p>
           <p>Director of the mixed Emerging</p>
           <p>Technology Integration Lab at UCF.</p>
         </div>
