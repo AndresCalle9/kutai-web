@@ -7,7 +7,7 @@ import img3 from "../../public/assets/section3.png";
 import img5 from "../../public/assets/section5.png";
 import img6_1 from "../../public/assets/section6_1.png";
 import img6_2 from "../../public/assets/section6_2.png";
-import img6_3 from "../../public/assets/david_image.jpeg";
+import img6_3 from "../../public/assets/david_image.png";
 import img7 from "../../public/assets/section7.png";
 import img6_4 from "../../public/assets/section6_4.png";
 import s from "../styles/pages/home.module.scss";
