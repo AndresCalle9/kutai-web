@@ -22,7 +22,7 @@ const Footer = () => {
       </section>
       <div className={s.footerInfo}>
         <h3>
-          KutAi: is an Ai powered guide that helps you taking the best food
+          KutAi: is an Ai powered guide that helps you take the best food
           choices towards a healthier life
         </h3>
       </div>

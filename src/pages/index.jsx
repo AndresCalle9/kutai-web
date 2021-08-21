@@ -89,7 +89,7 @@ const index = () => {
           <p className={s.paragraph}>
             "The industry and the science of nutrition is moving beyond the
             simple device to holistic solutions that include nutrition,
-            technologu and motivation. The kutai solution appears to be in
+            technology and motivation. The kutai solution appears to be in
             alignment with this view"
           </p>
           <p>David Metcalf, PhD</p>
