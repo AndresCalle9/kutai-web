@@ -27,7 +27,7 @@ const index = () => {
             <p className={s.text3}>Motivation</p>
           </div>
         </div>
-        <p className={s.phraseSct1}>"We focus on the journey"</p>
+        <p className={s.phraseSct1}>We focus on the journey!</p>
       </section>
       <section id="sectionTwo" className={s.section2}>
         {/* section 2*/}
