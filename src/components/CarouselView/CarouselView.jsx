@@ -15,18 +15,18 @@ const CarouselView = () => {
     <div className={s.container}>
       <p> Dynamic Nutritional Evaluation</p>
       <div className={s.imgSct4}>
-        <Image src={img4} placeholder="blur" />
+        <Image src={img4} placeholder="blur" alt="carroulse image" />
       </div>
       <div className={s.carousel}>
         <Carousel showArrows={false}>
           <div>
-            <Image src={img1} placeholder="blur" />
+            <Image src={img1} placeholder="blur" alt="carroulse image" />
           </div>
           <div>
-            <Image src={img2} placeholder="blur"/>
+            <Image src={img2} placeholder="blur" alt="carroulse image" />
           </div>
           <div>
-            <Image src={img3} placeholder="blur" />
+            <Image src={img3} placeholder="blur" alt="carroulse image" />
           </div>
         </Carousel>
       </div>
