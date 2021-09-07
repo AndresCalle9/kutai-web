@@ -860,7 +860,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/image */ "./node_modules/next/image.js");
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\acalle\\Documents\\Externo\\Kutai\\kutai-web\\src\\components\\Footer\\Footer.jsx";
+var _jsxFileName = "D:\\Externos\\Kutai\\kutai-web\\src\\components\\Footer\\Footer.jsx";
 
 
 
@@ -967,7 +967,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/image */ "./node_modules/next/image.js");
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_6__);
 
-var _jsxFileName = "C:\\Users\\acalle\\Documents\\Externo\\Kutai\\kutai-web\\src\\components\\Header\\Header.jsx";
+var _jsxFileName = "D:\\Externos\\Kutai\\kutai-web\\src\\components\\Header\\Header.jsx";
 
 
 
@@ -1081,7 +1081,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Header/Header */ "./src/components/Header/Header.jsx");
 /* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer/Footer */ "./src/components/Footer/Footer.jsx");
 
-var _jsxFileName = "C:\\Users\\acalle\\Documents\\Externo\\Kutai\\kutai-web\\src\\components\\Layout\\Layout.jsx";
+var _jsxFileName = "D:\\Externos\\Kutai\\kutai-web\\src\\components\\Layout\\Layout.jsx";
 
 
 
@@ -1131,7 +1131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _public_logoBlanco_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/logoBlanco.png */ "./public/logoBlanco.png");
 
-var _jsxFileName = "C:\\Users\\acalle\\Documents\\Externo\\Kutai\\kutai-web\\src\\components\\NavMenu\\NavMenu.jsx";
+var _jsxFileName = "D:\\Externos\\Kutai\\kutai-web\\src\\components\\NavMenu\\NavMenu.jsx";
 
 
 
@@ -1226,7 +1226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_globals_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout/Layout */ "./src/components/Layout/Layout.jsx");
 
-var _jsxFileName = "C:\\Users\\acalle\\Documents\\Externo\\Kutai\\kutai-web\\src\\pages\\_app.js";
+var _jsxFileName = "D:\\Externos\\Kutai\\kutai-web\\src\\pages\\_app.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 

@@ -30,4 +30,6 @@ const Footer = () => {
   );
 };
 
+// Comentario en footer para probar peticiones en pc oficina
+
 export default Footer;
