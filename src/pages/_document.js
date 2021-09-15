@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <meta property="og:title" content="Kutai" />
           <meta property="og:description" content="KutAi: is an Ai powered guide that helps you take the best food
           choices towards a healthier life" />
-          <meta property="og:image" content="https://kutai.co/logoBlanco.png" />
+          <meta property="og:image" content="https://kutai.co/image.png" />
           <meta property="fb:app_id" content="368546701308259" />
         </Head>
         <body>
